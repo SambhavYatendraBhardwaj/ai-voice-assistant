@@ -1,2 +1,12 @@
-# ai-voice-assistant
-An Alexa-style voice assistant powered by Gemini API, capable of real-time speech interaction, task automation, and natural language responses.
+# AI Voice Assistant
+
+A Python-based voice AI assistant using Gemini API for real-time interaction and task automation.
+
+## Features
+- Voice commands
+- AI responses
+- Task automation
+
+## Run
+pip install -r requirements.txt
+python main.py
