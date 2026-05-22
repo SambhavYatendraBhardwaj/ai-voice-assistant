@@ -6,7 +6,7 @@ import requests
 import google.generativeai as genai
 
 # Gemini Configuration
-genai.configure(api_key="AIzaSyDTwg9YvksrISyvNX4ktxHQyP0YHf5vjtE")
+genai.configure(api_key="")
 # Model name ko explicitly aise likho
 # Is line ko aise likho:
 # Purani line: model = genai.GenerativeModel('gemini-pro')
