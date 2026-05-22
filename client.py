@@ -2,7 +2,7 @@ import  google.generativeai as genai
 
 
 # Yahan apni Gemini API Key paste karein
-genai.configure(api_key="AIzaSyDTwg9YvksrISyvNX4ktxHQyP0YHf5vjtE")
+genai.configure(api_key="")
 print("Available models:")
 for m in genai.list_models():
     if 'generateContent' in m.supported_generation_methods:
